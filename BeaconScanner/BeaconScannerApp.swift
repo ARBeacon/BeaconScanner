@@ -1,6 +1,6 @@
 //
-//  iBeaconScannerApp.swift
-//  iBeaconScanner
+//  BeaconScannerApp.swift
+//  BeaconScanner
 //
 //  Created by Maitree Hirunteeyakul on 17/10/2024.
 //
@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct iBeaconScannerApp: App {
+struct BeaconScannerApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

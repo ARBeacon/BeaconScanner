@@ -12,37 +12,37 @@
 			containerPortal = 62A166012CC11A5700D581B3 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 62A166082CC11A5700D581B3;
-			remoteInfo = iBeaconScanner;
+			remoteInfo = BeaconScanner;
 		};
 		62A166252CC11A5800D581B3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 62A166012CC11A5700D581B3 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 62A166082CC11A5700D581B3;
-			remoteInfo = iBeaconScanner;
+			remoteInfo = BeaconScanner;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		62A166092CC11A5700D581B3 /* iBeaconScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iBeaconScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		62A1661A2CC11A5800D581B3 /* iBeaconScannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iBeaconScannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		62A166242CC11A5800D581B3 /* iBeaconScannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iBeaconScannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		62A166092CC11A5700D581B3 /* BeaconScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeaconScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		62A1661A2CC11A5800D581B3 /* BeaconScannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeaconScannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		62A166242CC11A5800D581B3 /* BeaconScannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeaconScannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		62A1660B2CC11A5700D581B3 /* iBeaconScanner */ = {
+		62A1660B2CC11A5700D581B3 /* BeaconScanner */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = iBeaconScanner;
+			path = BeaconScanner;
 			sourceTree = "<group>";
 		};
-		62A1661D2CC11A5800D581B3 /* iBeaconScannerTests */ = {
+		62A1661D2CC11A5800D581B3 /* BeaconScannerTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = iBeaconScannerTests;
+			path = BeaconScannerTests;
 			sourceTree = "<group>";
 		};
-		62A166272CC11A5800D581B3 /* iBeaconScannerUITests */ = {
+		62A166272CC11A5800D581B3 /* BeaconScannerUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = iBeaconScannerUITests;
+			path = BeaconScannerUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,9 +75,9 @@
 		62A166002CC11A5700D581B3 = {
 			isa = PBXGroup;
 			children = (
-				62A1660B2CC11A5700D581B3 /* iBeaconScanner */,
-				62A1661D2CC11A5800D581B3 /* iBeaconScannerTests */,
-				62A166272CC11A5800D581B3 /* iBeaconScannerUITests */,
+				62A1660B2CC11A5700D581B3 /* BeaconScanner */,
+				62A1661D2CC11A5800D581B3 /* BeaconScannerTests */,
+				62A166272CC11A5800D581B3 /* BeaconScannerUITests */,
 				62A1660A2CC11A5700D581B3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,9 +85,9 @@
 		62A1660A2CC11A5700D581B3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				62A166092CC11A5700D581B3 /* iBeaconScanner.app */,
-				62A1661A2CC11A5800D581B3 /* iBeaconScannerTests.xctest */,
-				62A166242CC11A5800D581B3 /* iBeaconScannerUITests.xctest */,
+				62A166092CC11A5700D581B3 /* BeaconScanner.app */,
+				62A1661A2CC11A5800D581B3 /* BeaconScannerTests.xctest */,
+				62A166242CC11A5800D581B3 /* BeaconScannerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		62A166082CC11A5700D581B3 /* iBeaconScanner */ = {
+		62A166082CC11A5700D581B3 /* BeaconScanner */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 62A1662E2CC11A5800D581B3 /* Build configuration list for PBXNativeTarget "iBeaconScanner" */;
+			buildConfigurationList = 62A1662E2CC11A5800D581B3 /* Build configuration list for PBXNativeTarget "BeaconScanner" */;
 			buildPhases = (
 				62A166052CC11A5700D581B3 /* Sources */,
 				62A166062CC11A5700D581B3 /* Frameworks */,
@@ -108,18 +108,18 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				62A1660B2CC11A5700D581B3 /* iBeaconScanner */,
+				62A1660B2CC11A5700D581B3 /* BeaconScanner */,
 			);
-			name = iBeaconScanner;
+			name = BeaconScanner;
 			packageProductDependencies = (
 			);
-			productName = iBeaconScanner;
-			productReference = 62A166092CC11A5700D581B3 /* iBeaconScanner.app */;
+			productName = BeaconScanner;
+			productReference = 62A166092CC11A5700D581B3 /* BeaconScanner.app */;
 			productType = "com.apple.product-type.application";
 		};
-		62A166192CC11A5800D581B3 /* iBeaconScannerTests */ = {
+		62A166192CC11A5800D581B3 /* BeaconScannerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 62A166312CC11A5800D581B3 /* Build configuration list for PBXNativeTarget "iBeaconScannerTests" */;
+			buildConfigurationList = 62A166312CC11A5800D581B3 /* Build configuration list for PBXNativeTarget "BeaconScannerTests" */;
 			buildPhases = (
 				62A166162CC11A5800D581B3 /* Sources */,
 				62A166172CC11A5800D581B3 /* Frameworks */,
@@ -131,18 +131,18 @@
 				62A1661C2CC11A5800D581B3 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				62A1661D2CC11A5800D581B3 /* iBeaconScannerTests */,
+				62A1661D2CC11A5800D581B3 /* BeaconScannerTests */,
 			);
-			name = iBeaconScannerTests;
+			name = BeaconScannerTests;
 			packageProductDependencies = (
 			);
-			productName = iBeaconScannerTests;
-			productReference = 62A1661A2CC11A5800D581B3 /* iBeaconScannerTests.xctest */;
+			productName = BeaconScannerTests;
+			productReference = 62A1661A2CC11A5800D581B3 /* BeaconScannerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		62A166232CC11A5800D581B3 /* iBeaconScannerUITests */ = {
+		62A166232CC11A5800D581B3 /* BeaconScannerUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 62A166342CC11A5800D581B3 /* Build configuration list for PBXNativeTarget "iBeaconScannerUITests" */;
+			buildConfigurationList = 62A166342CC11A5800D581B3 /* Build configuration list for PBXNativeTarget "BeaconScannerUITests" */;
 			buildPhases = (
 				62A166202CC11A5800D581B3 /* Sources */,
 				62A166212CC11A5800D581B3 /* Frameworks */,
@@ -154,13 +154,13 @@
 				62A166262CC11A5800D581B3 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				62A166272CC11A5800D581B3 /* iBeaconScannerUITests */,
+				62A166272CC11A5800D581B3 /* BeaconScannerUITests */,
 			);
-			name = iBeaconScannerUITests;
+			name = BeaconScannerUITests;
 			packageProductDependencies = (
 			);
-			productName = iBeaconScannerUITests;
-			productReference = 62A166242CC11A5800D581B3 /* iBeaconScannerUITests.xctest */;
+			productName = BeaconScannerUITests;
+			productReference = 62A166242CC11A5800D581B3 /* BeaconScannerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 62A166042CC11A5700D581B3 /* Build configuration list for PBXProject "iBeaconScanner" */;
+			buildConfigurationList = 62A166042CC11A5700D581B3 /* Build configuration list for PBXProject "BeaconScanner" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -200,9 +200,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				62A166082CC11A5700D581B3 /* iBeaconScanner */,
-				62A166192CC11A5800D581B3 /* iBeaconScannerTests */,
-				62A166232CC11A5800D581B3 /* iBeaconScannerUITests */,
+				62A166082CC11A5700D581B3 /* BeaconScanner */,
+				62A166192CC11A5800D581B3 /* BeaconScannerTests */,
+				62A166232CC11A5800D581B3 /* BeaconScannerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,12 +258,12 @@
 /* Begin PBXTargetDependency section */
 		62A1661C2CC11A5800D581B3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 62A166082CC11A5700D581B3 /* iBeaconScanner */;
+			target = 62A166082CC11A5700D581B3 /* BeaconScanner */;
 			targetProxy = 62A1661B2CC11A5800D581B3 /* PBXContainerItemProxy */;
 		};
 		62A166262CC11A5800D581B3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 62A166082CC11A5700D581B3 /* iBeaconScanner */;
+			target = 62A166082CC11A5700D581B3 /* BeaconScanner */;
 			targetProxy = 62A166252CC11A5800D581B3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -326,7 +326,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -382,7 +382,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 			};
 			name = Release;
@@ -392,25 +392,30 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = iBeaconScanner/iBeaconScanner.entitlements;
+				CODE_SIGN_ENTITLEMENTS = BeaconScanner/BeaconScanner.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"iBeaconScanner/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"BeaconScanner/Preview Content\"";
 				DEVELOPMENT_TEAM = U2S8Q8VES6;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "This app use BLE services to get data";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app use iBeacon protocol";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = m41hieu.iBeaconScanner;
+				PRODUCT_BUNDLE_IDENTIFIER = m41hieu.BeaconScanner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -419,25 +424,30 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = iBeaconScanner/iBeaconScanner.entitlements;
+				CODE_SIGN_ENTITLEMENTS = BeaconScanner/BeaconScanner.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"iBeaconScanner/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"BeaconScanner/Preview Content\"";
 				DEVELOPMENT_TEAM = U2S8Q8VES6;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "This app use BLE services to get data";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app use iBeacon protocol";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = m41hieu.iBeaconScanner;
+				PRODUCT_BUNDLE_IDENTIFIER = m41hieu.BeaconScanner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -451,11 +461,11 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = m41hieu.iBeaconScannerTests;
+				PRODUCT_BUNDLE_IDENTIFIER = m41hieu.BeaconScannerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iBeaconScanner.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iBeaconScanner";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeaconScanner.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BeaconScanner";
 			};
 			name = Debug;
 		};
@@ -469,11 +479,11 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = m41hieu.iBeaconScannerTests;
+				PRODUCT_BUNDLE_IDENTIFIER = m41hieu.BeaconScannerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iBeaconScanner.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iBeaconScanner";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeaconScanner.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BeaconScanner";
 			};
 			name = Release;
 		};
@@ -485,11 +495,11 @@
 				DEVELOPMENT_TEAM = U2S8Q8VES6;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = m41hieu.iBeaconScannerUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = m41hieu.BeaconScannerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = iBeaconScanner;
+				TEST_TARGET_NAME = BeaconScanner;
 			};
 			name = Debug;
 		};
@@ -501,18 +511,18 @@
 				DEVELOPMENT_TEAM = U2S8Q8VES6;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = m41hieu.iBeaconScannerUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = m41hieu.BeaconScannerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = iBeaconScanner;
+				TEST_TARGET_NAME = BeaconScanner;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		62A166042CC11A5700D581B3 /* Build configuration list for PBXProject "iBeaconScanner" */ = {
+		62A166042CC11A5700D581B3 /* Build configuration list for PBXProject "BeaconScanner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				62A1662C2CC11A5800D581B3 /* Debug */,
@@ -521,7 +531,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		62A1662E2CC11A5800D581B3 /* Build configuration list for PBXNativeTarget "iBeaconScanner" */ = {
+		62A1662E2CC11A5800D581B3 /* Build configuration list for PBXNativeTarget "BeaconScanner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				62A1662F2CC11A5800D581B3 /* Debug */,
@@ -530,7 +540,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		62A166312CC11A5800D581B3 /* Build configuration list for PBXNativeTarget "iBeaconScannerTests" */ = {
+		62A166312CC11A5800D581B3 /* Build configuration list for PBXNativeTarget "BeaconScannerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				62A166322CC11A5800D581B3 /* Debug */,
@@ -539,7 +549,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		62A166342CC11A5800D581B3 /* Build configuration list for PBXNativeTarget "iBeaconScannerUITests" */ = {
+		62A166342CC11A5800D581B3 /* Build configuration list for PBXNativeTarget "BeaconScannerUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				62A166352CC11A5800D581B3 /* Debug */,

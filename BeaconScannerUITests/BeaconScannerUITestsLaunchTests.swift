@@ -1,13 +1,13 @@
 //
-//  iBeaconScannerUITestsLaunchTests.swift
-//  iBeaconScannerUITests
+//  BeaconScannerUITestsLaunchTests.swift
+//  BeaconScannerUITests
 //
 //  Created by Maitree Hirunteeyakul on 17/10/2024.
 //
 
 import XCTest
 
-final class iBeaconScannerUITestsLaunchTests: XCTestCase {
+final class BeaconScannerUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
