@@ -14,9 +14,12 @@ struct ContentView: View {
     var beacon: [CLProximity: [CLBeacon]] {beaconManager.beacons}
     
     var body: some View {
-        BeaconsView(beacons: beacon)
-        .onAppear {
-            beaconManager.startMonitoringBeacon(uuidString: beaconUUID)
+        NavigationView {
+            BeaconsView(beacons: beacon)
+                .onAppear {
+                    beaconManager.startMonitoringBeacon(uuidString: beaconUUID)
+                }
+                .navigationTitle("iBeacon")
         }
     }
 }

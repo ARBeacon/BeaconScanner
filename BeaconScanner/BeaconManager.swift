@@ -31,7 +31,7 @@ class BeaconManager: NSObject, ObservableObject {
     func startMonitoringBeacon(uuidString: String) {
         guard let uuid = UUID(uuidString: uuidString) else { return }
         
-        locationManager.requestAlwaysAuthorization()
+        locationManager.requestWhenInUseAuthorization()
         
         let constraint = CLBeaconIdentityConstraint(uuid: uuid)
         beaconConstraints[constraint] = []
