@@ -418,6 +418,7 @@
 				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "This app use BLE services to get data";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app use iBeacon protocol";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -451,6 +452,7 @@
 				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "This app use BLE services to get data";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app use iBeacon protocol";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
