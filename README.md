@@ -1,5 +1,6 @@
 # BeaconScanner
 Minimal iOS app for testing iBeacon observation with ESP32 beacons using Apple's CoreLocation framework.
+![Picture1](https://github.com/user-attachments/assets/90db2ff0-ee51-41cb-a615-3b04704882df)
 
 ## 📱 Features
 - Real-time beacon proximity detection (Immediate/Near/Far)
